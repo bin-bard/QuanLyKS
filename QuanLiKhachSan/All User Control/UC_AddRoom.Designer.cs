@@ -58,12 +58,12 @@
             this.btnAddRoom.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAddRoom.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnAddRoom.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAddRoom.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddRoom.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddRoom.ForeColor = System.Drawing.Color.White;
-            this.btnAddRoom.Location = new System.Drawing.Point(416, 462);
-            this.btnAddRoom.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.btnAddRoom.Location = new System.Drawing.Point(642, 541);
+            this.btnAddRoom.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.btnAddRoom.Name = "btnAddRoom";
-            this.btnAddRoom.Size = new System.Drawing.Size(203, 42);
+            this.btnAddRoom.Size = new System.Drawing.Size(271, 57);
             this.btnAddRoom.TabIndex = 22;
             this.btnAddRoom.Text = "Thêm Phòng";
             this.btnAddRoom.Click += new System.EventHandler(this.btnAddRoom_Click);
@@ -81,23 +81,22 @@
             this.txtGia.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGia.ForeColor = System.Drawing.Color.Black;
             this.txtGia.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGia.Location = new System.Drawing.Point(853, 439);
-            this.txtGia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtGia.Location = new System.Drawing.Point(1186, 600);
+            this.txtGia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGia.Name = "txtGia";
             this.txtGia.PasswordChar = '\0';
             this.txtGia.PlaceholderText = "";
             this.txtGia.SelectedText = "";
-            this.txtGia.Size = new System.Drawing.Size(211, 31);
+            this.txtGia.Size = new System.Drawing.Size(281, 42);
             this.txtGia.TabIndex = 21;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(859, 383);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(1194, 524);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 17);
+            this.label5.Size = new System.Drawing.Size(94, 29);
             this.label5.TabIndex = 20;
             this.label5.Text = "Giá Tiền";
             // 
@@ -116,20 +115,19 @@
             "Don",
             "Doi",
             "Tong-Thong"});
-            this.txtLoaiGiuong.Location = new System.Drawing.Point(857, 332);
-            this.txtLoaiGiuong.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.txtLoaiGiuong.Location = new System.Drawing.Point(1192, 455);
+            this.txtLoaiGiuong.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.txtLoaiGiuong.Name = "txtLoaiGiuong";
-            this.txtLoaiGiuong.Size = new System.Drawing.Size(214, 36);
+            this.txtLoaiGiuong.Size = new System.Drawing.Size(284, 36);
             this.txtLoaiGiuong.TabIndex = 19;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(853, 291);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(1186, 399);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 17);
+            this.label4.Size = new System.Drawing.Size(135, 29);
             this.label4.TabIndex = 18;
             this.label4.Text = "Loại Giường";
             // 
@@ -147,20 +145,19 @@
             this.txtTenLoaiPhong.Items.AddRange(new object[] {
             "Ac",
             "Non-Ac"});
-            this.txtTenLoaiPhong.Location = new System.Drawing.Point(853, 245);
-            this.txtTenLoaiPhong.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.txtTenLoaiPhong.Location = new System.Drawing.Point(1186, 336);
+            this.txtTenLoaiPhong.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.txtTenLoaiPhong.Name = "txtTenLoaiPhong";
-            this.txtTenLoaiPhong.Size = new System.Drawing.Size(214, 36);
+            this.txtTenLoaiPhong.Size = new System.Drawing.Size(284, 36);
             this.txtTenLoaiPhong.TabIndex = 17;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(853, 213);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(1186, 293);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 17);
+            this.label3.Size = new System.Drawing.Size(122, 29);
             this.label3.TabIndex = 16;
             this.label3.Text = "Loại Phòng";
             // 
@@ -177,23 +174,22 @@
             this.txtSoPhong.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoPhong.ForeColor = System.Drawing.Color.Black;
             this.txtSoPhong.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSoPhong.Location = new System.Drawing.Point(853, 166);
-            this.txtSoPhong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSoPhong.Location = new System.Drawing.Point(1186, 229);
+            this.txtSoPhong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSoPhong.Name = "txtSoPhong";
             this.txtSoPhong.PasswordChar = '\0';
             this.txtSoPhong.PlaceholderText = "";
             this.txtSoPhong.SelectedText = "";
-            this.txtSoPhong.Size = new System.Drawing.Size(211, 31);
+            this.txtSoPhong.Size = new System.Drawing.Size(281, 42);
             this.txtSoPhong.TabIndex = 15;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(849, 128);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(1181, 178);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 17);
+            this.label2.Size = new System.Drawing.Size(105, 29);
             this.label2.TabIndex = 14;
             this.label2.Text = "Số Phòng";
             // 
@@ -204,30 +200,30 @@
             this.dataGridViewRooms.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Calibri", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewRooms.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridViewRooms.ColumnHeadersHeight = 4;
+            this.dataGridViewRooms.ColumnHeadersHeight = 30;
             this.dataGridViewRooms.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Calibri", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewRooms.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewRooms.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dataGridViewRooms.Location = new System.Drawing.Point(46, 80);
-            this.dataGridViewRooms.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.dataGridViewRooms.Location = new System.Drawing.Point(61, 109);
+            this.dataGridViewRooms.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dataGridViewRooms.Name = "dataGridViewRooms";
             this.dataGridViewRooms.RowHeadersVisible = false;
             this.dataGridViewRooms.RowHeadersWidth = 82;
             this.dataGridViewRooms.RowTemplate.Height = 33;
-            this.dataGridViewRooms.Size = new System.Drawing.Size(740, 354);
+            this.dataGridViewRooms.Size = new System.Drawing.Size(852, 386);
             this.dataGridViewRooms.TabIndex = 13;
             this.dataGridViewRooms.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dataGridViewRooms.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -241,7 +237,7 @@
             this.dataGridViewRooms.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.dataGridViewRooms.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dataGridViewRooms.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dataGridViewRooms.ThemeStyle.HeaderStyle.Height = 4;
+            this.dataGridViewRooms.ThemeStyle.HeaderStyle.Height = 30;
             this.dataGridViewRooms.ThemeStyle.ReadOnly = false;
             this.dataGridViewRooms.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.dataGridViewRooms.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -256,10 +252,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(37, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(49, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(194, 41);
+            this.label1.Size = new System.Drawing.Size(229, 49);
             this.label1.TabIndex = 12;
             this.label1.Text = "Thêm Phòng";
             // 
@@ -280,27 +275,27 @@
             this.comboBoxBranches.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxBranches.ForeColor = System.Drawing.Color.Black;
             this.comboBoxBranches.ItemHeight = 30;
-            this.comboBoxBranches.Location = new System.Drawing.Point(850, 66);
-            this.comboBoxBranches.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.comboBoxBranches.Location = new System.Drawing.Point(1182, 94);
+            this.comboBoxBranches.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.comboBoxBranches.Name = "comboBoxBranches";
-            this.comboBoxBranches.Size = new System.Drawing.Size(214, 36);
+            this.comboBoxBranches.Size = new System.Drawing.Size(284, 36);
             this.comboBoxBranches.TabIndex = 24;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(853, 28);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(1186, 42);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 17);
+            this.label6.Size = new System.Drawing.Size(115, 29);
             this.label6.TabIndex = 23;
             this.label6.Text = "Khách Sạn";
             // 
             // UC_AddRoom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.comboBoxBranches);
             this.Controls.Add(this.label6);
@@ -315,8 +310,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridViewRooms);
             this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Calibri", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.Name = "UC_AddRoom";
             this.Size = new System.Drawing.Size(1629, 693);
             this.Load += new System.EventHandler(this.UC_AddRoom_Load);

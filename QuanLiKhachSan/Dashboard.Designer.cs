@@ -52,13 +52,13 @@
             this.guna2Elipse8 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse9 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uc_Employee1 = new QuanLiKhachSan.All_User_Control.uc_Employee();
-            this.uc_CustomerControl1 = new QuanLiKhachSan.All_User_Control.uc_CustomerControl();
             this.uc_CheckOut1 = new QuanLiKhachSan.All_User_Control.uc_CheckOut();
             this.uC_CustomerReg1 = new QuanLiKhachSan.All_User_Control.UC_CustomerReg();
             this.uC_AddRoom1 = new QuanLiKhachSan.All_User_Control.UC_AddRoom();
-            this.uC_ChiNhanh1 = new QuanLiKhachSan.All_User_Control.UC_ChiNhanh();
             this.uC_AddKhuyenMaiDichVu1 = new QuanLiKhachSan.All_User_Control.UC_AddKhuyenMaiDichVu();
+            this.uC_ChiNhanh1 = new QuanLiKhachSan.All_User_Control.UC_ChiNhanh();
+            this.uc_Employee1 = new QuanLiKhachSan.All_User_Control.uc_Employee();
+            this.uc_CustomerControl1 = new QuanLiKhachSan.All_User_Control.uc_CustomerControl();
             this.uc_CheckOut2 = new QuanLiKhachSan.All_User_Control.uc_CheckOut();
             this.panel1.SuspendLayout();
             this.btnCustomerRes.SuspendLayout();
@@ -209,13 +209,13 @@
             // 
             this.btnCustomerRes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.btnCustomerRes.Controls.Add(this.uc_CheckOut1);
-            this.btnCustomerRes.Controls.Add(this.uC_CustomerReg1);
-            this.btnCustomerRes.Controls.Add(this.uC_AddRoom1);
-            this.btnCustomerRes.Controls.Add(this.uC_AddKhuyenMaiDichVu1);
             this.btnCustomerRes.Controls.Add(this.uC_ChiNhanh1);
             this.btnCustomerRes.Controls.Add(this.uc_Employee1);
             this.btnCustomerRes.Controls.Add(this.uc_CustomerControl1);
             this.btnCustomerRes.Controls.Add(this.uc_CheckOut2);
+            this.btnCustomerRes.Controls.Add(this.uC_CustomerReg1);
+            this.btnCustomerRes.Controls.Add(this.uC_AddRoom1);
+            this.btnCustomerRes.Controls.Add(this.uC_AddKhuyenMaiDichVu1);
             resources.ApplyResources(this.btnCustomerRes, "btnCustomerRes");
             this.btnCustomerRes.Name = "btnCustomerRes";
             this.btnCustomerRes.Paint += new System.Windows.Forms.PaintEventHandler(this.btnCustomerRes_Paint);
@@ -258,20 +258,6 @@
             // 
             this.guna2Elipse9.TargetControl = this;
             // 
-            // uc_Employee1
-            // 
-            this.uc_Employee1.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.uc_Employee1, "uc_Employee1");
-            this.uc_Employee1.Name = "uc_Employee1";
-            this.uc_Employee1.Load += new System.EventHandler(this.uc_Employee1_Load);
-            // 
-            // uc_CustomerControl1
-            // 
-            this.uc_CustomerControl1.BackColor = System.Drawing.Color.GhostWhite;
-            resources.ApplyResources(this.uc_CustomerControl1, "uc_CustomerControl1");
-            this.uc_CustomerControl1.ForeColor = System.Drawing.Color.Black;
-            this.uc_CustomerControl1.Name = "uc_CustomerControl1";
-            // 
             // uc_CheckOut1
             // 
             this.uc_CheckOut1.BackColor = System.Drawing.Color.GhostWhite;
@@ -291,6 +277,12 @@
             this.uC_AddRoom1.Name = "uC_AddRoom1";
             this.uC_AddRoom1.Load += new System.EventHandler(this.uC_AddRoom1_Load);
             // 
+            // uC_AddKhuyenMaiDichVu1
+            // 
+            this.uC_AddKhuyenMaiDichVu1.BackColor = System.Drawing.Color.GhostWhite;
+            resources.ApplyResources(this.uC_AddKhuyenMaiDichVu1, "uC_AddKhuyenMaiDichVu1");
+            this.uC_AddKhuyenMaiDichVu1.Name = "uC_AddKhuyenMaiDichVu1";
+            // 
             // uC_ChiNhanh1
             // 
             resources.ApplyResources(this.uC_ChiNhanh1, "uC_ChiNhanh1");
@@ -298,11 +290,19 @@
             this.uC_ChiNhanh1.Name = "uC_ChiNhanh1";
             this.uC_ChiNhanh1.Load += new System.EventHandler(this.uC_ChiNhanh1_Load);
             // 
-            // uC_AddKhuyenMaiDichVu1
+            // uc_Employee1
             // 
-            this.uC_AddKhuyenMaiDichVu1.BackColor = System.Drawing.Color.GhostWhite;
-            resources.ApplyResources(this.uC_AddKhuyenMaiDichVu1, "uC_AddKhuyenMaiDichVu1");
-            this.uC_AddKhuyenMaiDichVu1.Name = "uC_AddKhuyenMaiDichVu1";
+            this.uc_Employee1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.uc_Employee1, "uc_Employee1");
+            this.uc_Employee1.Name = "uc_Employee1";
+            this.uc_Employee1.Load += new System.EventHandler(this.uc_Employee1_Load);
+            // 
+            // uc_CustomerControl1
+            // 
+            this.uc_CustomerControl1.BackColor = System.Drawing.Color.GhostWhite;
+            resources.ApplyResources(this.uc_CustomerControl1, "uc_CustomerControl1");
+            this.uc_CustomerControl1.ForeColor = System.Drawing.Color.Black;
+            this.uc_CustomerControl1.Name = "uc_CustomerControl1";
             // 
             // uc_CheckOut2
             // 

@@ -208,7 +208,16 @@ namespace QuanLiKhachSan.All_User_Control
         private void LoadEmployeesView()
         {
             DataTable employeesList = db.GetEmployees();
+
+            if (employeesList.Rows.Count == 0)
+            {
+                MessageBox.Show("Không có dữ liệu để hiển thị.");
+                return;
+            }
+
+            viewEmpGridView.Columns.Clear();
             viewEmpGridView.DataSource = employeesList;
+            viewEmpGridView.AllowUserToAddRows = false;
 
             viewEmpGridView.Columns[0].HeaderText = "ID";
             viewEmpGridView.Columns[0].Width = 30;
@@ -225,7 +234,6 @@ namespace QuanLiKhachSan.All_User_Control
             viewEmpGridView.Columns[4].HeaderText = "Số Điện Thoại";
             viewEmpGridView.Columns[4].Width = 90;
 
-
             viewEmpGridView.Columns[5].HeaderText = "Email";
             viewEmpGridView.Columns[5].Width = 120;
 
@@ -238,15 +246,20 @@ namespace QuanLiKhachSan.All_User_Control
             viewEmpGridView.Columns[8].HeaderText = "Chức Vụ";
             viewEmpGridView.Columns[8].Width = 80;
 
-            DataGridViewButtonColumn btnDelete = new DataGridViewButtonColumn();
-            btnDelete.HeaderText = "Xóa";
-            btnDelete.Name = "btnDelete";
-            btnDelete.Text = "X";
-            btnDelete.UseColumnTextForButtonValue = true; // Hiển thị văn bản "Xóa" trên nút
-
-            viewEmpGridView.Columns.Add(btnDelete);
-            viewEmpGridView.Columns["btnDelete"].Width = 30;
+            if (viewEmpGridView.Columns["btnDelete"] == null)
+            {
+                DataGridViewButtonColumn btnDelete = new DataGridViewButtonColumn();
+                btnDelete.HeaderText = "Xóa";
+                btnDelete.Name = "btnDelete";
+                btnDelete.Text = "X";
+                btnDelete.UseColumnTextForButtonValue = true;
+                viewEmpGridView.Columns.Add(btnDelete);
+                viewEmpGridView.Columns["btnDelete"].Width = 30;
+            }
         }
+
+
+
 
         private void btnLoad_Click(object sender, EventArgs e)
         {

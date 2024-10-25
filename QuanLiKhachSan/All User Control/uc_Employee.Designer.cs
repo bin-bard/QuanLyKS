@@ -62,11 +62,10 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.btnLoad = new Guna.UI2.WinForms.Guna2Button();
             this.viewEmpGridView = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.luongViewGrid = new Guna.UI2.WinForms.Guna2DataGridView();
             this.loadLuongBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.luongViewGrid = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -80,7 +79,6 @@
             this.guna2TabControl1.Alignment = System.Windows.Forms.TabAlignment.Left;
             this.guna2TabControl1.Controls.Add(this.tabPage1);
             this.guna2TabControl1.Controls.Add(this.tabPage3);
-            this.guna2TabControl1.Controls.Add(this.tabPage4);
             this.guna2TabControl1.Controls.Add(this.tabPage2);
             this.guna2TabControl1.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TabControl1.ItemSize = new System.Drawing.Size(190, 40);
@@ -550,7 +548,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.viewEmpGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.viewEmpGridView.ColumnHeadersHeight = 30;
+            this.viewEmpGridView.ColumnHeadersHeight = 35;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -579,7 +577,7 @@
             this.viewEmpGridView.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewEmpGridView.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.viewEmpGridView.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.viewEmpGridView.ThemeStyle.HeaderStyle.Height = 30;
+            this.viewEmpGridView.ThemeStyle.HeaderStyle.Height = 35;
             this.viewEmpGridView.ThemeStyle.ReadOnly = false;
             this.viewEmpGridView.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.viewEmpGridView.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -590,17 +588,6 @@
             this.viewEmpGridView.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.viewEmpGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.viewEmpGridView_CellContentClick);
             this.viewEmpGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.viewEmpGridView_CellContentClick_1);
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Location = new System.Drawing.Point(194, 4);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1431, 685);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Thông tin cá nhân";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
             // tabPage2
             // 
@@ -615,16 +602,20 @@
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
-            // guna2HtmlLabel1
+            // loadLuongBtn
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(0, 3);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(3, 2);
-            this.guna2HtmlLabel1.TabIndex = 1;
-            this.guna2HtmlLabel1.Text = null;
-            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
+            this.loadLuongBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.loadLuongBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.loadLuongBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.loadLuongBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.loadLuongBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.loadLuongBtn.ForeColor = System.Drawing.Color.White;
+            this.loadLuongBtn.Location = new System.Drawing.Point(59, 44);
+            this.loadLuongBtn.Name = "loadLuongBtn";
+            this.loadLuongBtn.Size = new System.Drawing.Size(180, 45);
+            this.loadLuongBtn.TabIndex = 1;
+            this.loadLuongBtn.Text = "Load";
+            this.loadLuongBtn.Click += new System.EventHandler(this.loadLuongBtn_Click);
             // 
             // luongViewGrid
             // 
@@ -650,6 +641,7 @@
             this.luongViewGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.luongViewGrid.Location = new System.Drawing.Point(59, 122);
             this.luongViewGrid.Name = "luongViewGrid";
+            this.luongViewGrid.RowHeadersVisible = false;
             this.luongViewGrid.RowHeadersWidth = 60;
             this.luongViewGrid.RowTemplate.Height = 28;
             this.luongViewGrid.Size = new System.Drawing.Size(909, 528);
@@ -677,20 +669,16 @@
             this.luongViewGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.luongViewGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.luongViewGrid_CellContentClick);
             // 
-            // loadLuongBtn
+            // guna2HtmlLabel1
             // 
-            this.loadLuongBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.loadLuongBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.loadLuongBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.loadLuongBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.loadLuongBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.loadLuongBtn.ForeColor = System.Drawing.Color.White;
-            this.loadLuongBtn.Location = new System.Drawing.Point(59, 44);
-            this.loadLuongBtn.Name = "loadLuongBtn";
-            this.loadLuongBtn.Size = new System.Drawing.Size(180, 45);
-            this.loadLuongBtn.TabIndex = 1;
-            this.loadLuongBtn.Text = "Load";
-            this.loadLuongBtn.Click += new System.EventHandler(this.loadLuongBtn_Click);
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(0, 3);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(3, 2);
+            this.guna2HtmlLabel1.TabIndex = 1;
+            this.guna2HtmlLabel1.Text = null;
+            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
             // 
             // uc_Employee
             // 
@@ -718,7 +706,6 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2ComboBox chucVuCBX;
         private System.Windows.Forms.Label label11;

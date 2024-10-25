@@ -198,7 +198,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(685, 65);
+            this.label7.Location = new System.Drawing.Point(707, 65);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(122, 29);
@@ -209,7 +209,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(685, 152);
+            this.label9.Location = new System.Drawing.Point(707, 152);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(131, 29);
@@ -220,7 +220,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(685, 327);
+            this.label12.Location = new System.Drawing.Point(707, 327);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(114, 29);
@@ -239,7 +239,7 @@
             this.txtPrice.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPrice.ForeColor = System.Drawing.Color.Black;
             this.txtPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPrice.Location = new System.Drawing.Point(689, 377);
+            this.txtPrice.Location = new System.Drawing.Point(711, 377);
             this.txtPrice.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.PasswordChar = '\0';
@@ -261,7 +261,7 @@
             this.txtTenLoaiPhong.Items.AddRange(new object[] {
             "Ac",
             "Non-Ac"});
-            this.txtTenLoaiPhong.Location = new System.Drawing.Point(685, 98);
+            this.txtTenLoaiPhong.Location = new System.Drawing.Point(707, 98);
             this.txtTenLoaiPhong.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenLoaiPhong.Name = "txtTenLoaiPhong";
             this.txtTenLoaiPhong.Size = new System.Drawing.Size(246, 36);
@@ -281,7 +281,7 @@
             "Don",
             "Doi",
             "Tong-Thong"});
-            this.txtLoaiGiuong.Location = new System.Drawing.Point(689, 182);
+            this.txtLoaiGiuong.Location = new System.Drawing.Point(711, 182);
             this.txtLoaiGiuong.Margin = new System.Windows.Forms.Padding(2);
             this.txtLoaiGiuong.Name = "txtLoaiGiuong";
             this.txtLoaiGiuong.Size = new System.Drawing.Size(246, 36);
@@ -317,12 +317,12 @@
             this.btnThemDichVu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnThemDichVu.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemDichVu.ForeColor = System.Drawing.Color.White;
-            this.btnThemDichVu.Location = new System.Drawing.Point(1011, 579);
+            this.btnThemDichVu.Location = new System.Drawing.Point(1204, 579);
             this.btnThemDichVu.Margin = new System.Windows.Forms.Padding(2);
             this.btnThemDichVu.Name = "btnThemDichVu";
-            this.btnThemDichVu.Size = new System.Drawing.Size(254, 58);
+            this.btnThemDichVu.Size = new System.Drawing.Size(244, 58);
             this.btnThemDichVu.TabIndex = 31;
-            this.btnThemDichVu.Text = "Đăng ký Dich Vụ";
+            this.btnThemDichVu.Text = "Đăng ký Dịch Vụ";
             this.btnThemDichVu.Click += new System.EventHandler(this.btnThemDichVu_Click);
             // 
             // guna2Elipse1
@@ -350,7 +350,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(686, 236);
+            this.label13.Location = new System.Drawing.Point(708, 236);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(105, 29);
@@ -369,7 +369,7 @@
             this.txtSoLuong.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSoLuong.ForeColor = System.Drawing.Color.Black;
             this.txtSoLuong.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSoLuong.Location = new System.Drawing.Point(1011, 277);
+            this.txtSoLuong.Location = new System.Drawing.Point(1202, 277);
             this.txtSoLuong.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.PasswordChar = '\0';
@@ -382,7 +382,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(1008, 235);
+            this.label5.Location = new System.Drawing.Point(1199, 235);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(103, 29);
@@ -405,7 +405,7 @@
             "Boi",
             "Spa",
             "Golf"});
-            this.cbxChonDichVu.Location = new System.Drawing.Point(1009, 98);
+            this.cbxChonDichVu.Location = new System.Drawing.Point(1200, 98);
             this.cbxChonDichVu.Margin = new System.Windows.Forms.Padding(2);
             this.cbxChonDichVu.Name = "cbxChonDichVu";
             this.cbxChonDichVu.Size = new System.Drawing.Size(246, 36);
@@ -416,7 +416,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(1004, 65);
+            this.label15.Location = new System.Drawing.Point(1195, 65);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(88, 29);
@@ -433,7 +433,7 @@
             this.cbxRoom.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbxRoom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbxRoom.ItemHeight = 30;
-            this.cbxRoom.Location = new System.Drawing.Point(689, 279);
+            this.cbxRoom.Location = new System.Drawing.Point(711, 279);
             this.cbxRoom.Margin = new System.Windows.Forms.Padding(2);
             this.cbxRoom.Name = "cbxRoom";
             this.cbxRoom.Size = new System.Drawing.Size(246, 36);
@@ -444,7 +444,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(1007, 146);
+            this.label10.Location = new System.Drawing.Point(1198, 146);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(72, 29);
@@ -464,7 +464,7 @@
             this.cbxMota.Items.AddRange(new object[] {
             "Ac",
             "Non-Ac"});
-            this.cbxMota.Location = new System.Drawing.Point(1009, 180);
+            this.cbxMota.Location = new System.Drawing.Point(1200, 180);
             this.cbxMota.Margin = new System.Windows.Forms.Padding(2);
             this.cbxMota.Name = "cbxMota";
             this.cbxMota.Size = new System.Drawing.Size(246, 36);
@@ -480,7 +480,7 @@
             this.btnKhach.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnKhach.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKhach.ForeColor = System.Drawing.Color.White;
-            this.btnKhach.Location = new System.Drawing.Point(181, 579);
+            this.btnKhach.Location = new System.Drawing.Point(208, 579);
             this.btnKhach.Margin = new System.Windows.Forms.Padding(2);
             this.btnKhach.Name = "btnKhach";
             this.btnKhach.Size = new System.Drawing.Size(254, 58);
@@ -497,10 +497,10 @@
             this.btnDangKiPhong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnDangKiPhong.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangKiPhong.ForeColor = System.Drawing.Color.White;
-            this.btnDangKiPhong.Location = new System.Drawing.Point(677, 579);
+            this.btnDangKiPhong.Location = new System.Drawing.Point(713, 579);
             this.btnDangKiPhong.Margin = new System.Windows.Forms.Padding(2);
             this.btnDangKiPhong.Name = "btnDangKiPhong";
-            this.btnDangKiPhong.Size = new System.Drawing.Size(254, 58);
+            this.btnDangKiPhong.Size = new System.Drawing.Size(244, 58);
             this.btnDangKiPhong.TabIndex = 48;
             this.btnDangKiPhong.Text = "Đăng ký Phòng";
             this.btnDangKiPhong.Click += new System.EventHandler(this.btnDangKiPhong_Click);
@@ -517,7 +517,7 @@
             this.txtSDTPhong.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSDTPhong.ForeColor = System.Drawing.Color.Black;
             this.txtSDTPhong.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSDTPhong.Location = new System.Drawing.Point(690, 493);
+            this.txtSDTPhong.Location = new System.Drawing.Point(712, 493);
             this.txtSDTPhong.Margin = new System.Windows.Forms.Padding(2);
             this.txtSDTPhong.Name = "txtSDTPhong";
             this.txtSDTPhong.PasswordChar = '\0';
@@ -530,7 +530,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(685, 456);
+            this.label14.Location = new System.Drawing.Point(707, 456);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(144, 29);
@@ -549,20 +549,20 @@
             this.txtSDTDichVu.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSDTDichVu.ForeColor = System.Drawing.Color.Black;
             this.txtSDTDichVu.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSDTDichVu.Location = new System.Drawing.Point(1015, 379);
+            this.txtSDTDichVu.Location = new System.Drawing.Point(1203, 390);
             this.txtSDTDichVu.Margin = new System.Windows.Forms.Padding(2);
             this.txtSDTDichVu.Name = "txtSDTDichVu";
             this.txtSDTDichVu.PasswordChar = '\0';
             this.txtSDTDichVu.PlaceholderText = "Nhập sđt khach";
             this.txtSDTDichVu.SelectedText = "";
-            this.txtSDTDichVu.Size = new System.Drawing.Size(241, 51);
+            this.txtSDTDichVu.Size = new System.Drawing.Size(245, 51);
             this.txtSDTDichVu.TabIndex = 52;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(1007, 349);
+            this.label16.Location = new System.Drawing.Point(1198, 349);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(144, 29);

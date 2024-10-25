@@ -428,114 +428,6 @@
   <data name="&gt;&gt;btnMiniSize.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;btnThemChiNhanh.Name" xml:space="preserve">
-    <value>btnThemChiNhanh</value>
-  </data>
-  <data name="&gt;&gt;btnThemChiNhanh.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
-  </data>
-  <data name="&gt;&gt;btnThemChiNhanh.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;btnThemChiNhanh.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnThemKhuyenMai.Name" xml:space="preserve">
-    <value>btnThemKhuyenMai</value>
-  </data>
-  <data name="&gt;&gt;btnThemKhuyenMai.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
-  </data>
-  <data name="&gt;&gt;btnThemKhuyenMai.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;btnThemKhuyenMai.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnThanhToan.Name" xml:space="preserve">
-    <value>btnThanhToan</value>
-  </data>
-  <data name="&gt;&gt;btnThanhToan.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
-  </data>
-  <data name="&gt;&gt;btnThanhToan.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;btnThanhToan.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnManagerKH.Name" xml:space="preserve">
-    <value>btnManagerKH</value>
-  </data>
-  <data name="&gt;&gt;btnManagerKH.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
-  </data>
-  <data name="&gt;&gt;btnManagerKH.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;btnManagerKH.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnQuanLyNV.Name" xml:space="preserve">
-    <value>btnQuanLyNV</value>
-  </data>
-  <data name="&gt;&gt;btnQuanLyNV.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
-  </data>
-  <data name="&gt;&gt;btnQuanLyNV.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;btnQuanLyNV.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnCheckIn.Name" xml:space="preserve">
-    <value>btnCheckIn</value>
-  </data>
-  <data name="&gt;&gt;btnCheckIn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
-  </data>
-  <data name="&gt;&gt;btnCheckIn.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;btnCheckIn.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnAddRoom.Name" xml:space="preserve">
-    <value>btnAddRoom</value>
-  </data>
-  <data name="&gt;&gt;btnAddRoom.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
-  </data>
-  <data name="&gt;&gt;btnAddRoom.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;btnAddRoom.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 15</value>
-  </data>
-  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1632, 113</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="btnThemChiNhanh.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
   </data>
@@ -746,6 +638,30 @@
   <data name="&gt;&gt;btnAddRoom.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 15</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1632, 113</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="uc_CheckOut1.Location" type="System.Drawing.Point, System.Drawing">
     <value>-2, -2</value>
   </data>
@@ -753,7 +669,7 @@
     <value>1, 1, 1, 1</value>
   </data>
   <data name="uc_CheckOut1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>4, 35</value>
+    <value>4, 14</value>
   </data>
   <data name="uc_CheckOut1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -769,87 +685,6 @@
   </data>
   <data name="&gt;&gt;uc_CheckOut1.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="uC_CustomerReg1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 5pt, style=Bold</value>
-  </data>
-  <data name="uC_CustomerReg1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-4, -2</value>
-  </data>
-  <data name="uC_CustomerReg1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 1, 1, 1</value>
-  </data>
-  <data name="uC_CustomerReg1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1629, 693</value>
-  </data>
-  <data name="uC_CustomerReg1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;uC_CustomerReg1.Name" xml:space="preserve">
-    <value>uC_CustomerReg1</value>
-  </data>
-  <data name="&gt;&gt;uC_CustomerReg1.Type" xml:space="preserve">
-    <value>QuanLiKhachSan.All_User_Control.UC_CustomerReg, QuanLiKhachSan, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;uC_CustomerReg1.Parent" xml:space="preserve">
-    <value>btnCustomerRes</value>
-  </data>
-  <data name="&gt;&gt;uC_CustomerReg1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="uC_AddRoom1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 5pt, style=Bold</value>
-  </data>
-  <data name="uC_AddRoom1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, -2</value>
-  </data>
-  <data name="uC_AddRoom1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 1, 1, 1</value>
-  </data>
-  <data name="uC_AddRoom1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1629, 693</value>
-  </data>
-  <data name="uC_AddRoom1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;uC_AddRoom1.Name" xml:space="preserve">
-    <value>uC_AddRoom1</value>
-  </data>
-  <data name="&gt;&gt;uC_AddRoom1.Type" xml:space="preserve">
-    <value>QuanLiKhachSan.All_User_Control.UC_AddRoom, QuanLiKhachSan, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;uC_AddRoom1.Parent" xml:space="preserve">
-    <value>btnCustomerRes</value>
-  </data>
-  <data name="&gt;&gt;uC_AddRoom1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="uC_AddKhuyenMaiDichVu1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 8pt</value>
-  </data>
-  <data name="uC_AddKhuyenMaiDichVu1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, -2</value>
-  </data>
-  <data name="uC_AddKhuyenMaiDichVu1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="uC_AddKhuyenMaiDichVu1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1632, 746</value>
-  </data>
-  <data name="uC_AddKhuyenMaiDichVu1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;uC_AddKhuyenMaiDichVu1.Name" xml:space="preserve">
-    <value>uC_AddKhuyenMaiDichVu1</value>
-  </data>
-  <data name="&gt;&gt;uC_AddKhuyenMaiDichVu1.Type" xml:space="preserve">
-    <value>QuanLiKhachSan.All_User_Control.UC_AddKhuyenMaiDichVu, QuanLiKhachSan, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;uC_AddKhuyenMaiDichVu1.Parent" xml:space="preserve">
-    <value>btnCustomerRes</value>
-  </data>
-  <data name="&gt;&gt;uC_AddKhuyenMaiDichVu1.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="uC_ChiNhanh1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -876,7 +711,7 @@
     <value>btnCustomerRes</value>
   </data>
   <data name="&gt;&gt;uC_ChiNhanh1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>1</value>
   </data>
   <data name="uc_Employee1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 9pt</value>
@@ -900,7 +735,7 @@
     <value>btnCustomerRes</value>
   </data>
   <data name="&gt;&gt;uc_Employee1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>2</value>
   </data>
   <data name="uc_CustomerControl1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 8pt, style=Bold</value>
@@ -927,7 +762,7 @@
     <value>btnCustomerRes</value>
   </data>
   <data name="&gt;&gt;uc_CustomerControl1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>3</value>
   </data>
   <data name="uc_CheckOut2.Location" type="System.Drawing.Point, System.Drawing">
     <value>-2, -2</value>
@@ -936,7 +771,7 @@
     <value>2, 2, 2, 2</value>
   </data>
   <data name="uc_CheckOut2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1629, 693</value>
+    <value>1448, 658</value>
   </data>
   <data name="uc_CheckOut2.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -951,6 +786,87 @@
     <value>btnCustomerRes</value>
   </data>
   <data name="&gt;&gt;uc_CheckOut2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="uC_CustomerReg1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 5pt, style=Bold</value>
+  </data>
+  <data name="uC_CustomerReg1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, -2</value>
+  </data>
+  <data name="uC_CustomerReg1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="uC_CustomerReg1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1629, 693</value>
+  </data>
+  <data name="uC_CustomerReg1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;uC_CustomerReg1.Name" xml:space="preserve">
+    <value>uC_CustomerReg1</value>
+  </data>
+  <data name="&gt;&gt;uC_CustomerReg1.Type" xml:space="preserve">
+    <value>QuanLiKhachSan.All_User_Control.UC_CustomerReg, QuanLiKhachSan, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uC_CustomerReg1.Parent" xml:space="preserve">
+    <value>btnCustomerRes</value>
+  </data>
+  <data name="&gt;&gt;uC_CustomerReg1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="uC_AddRoom1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8pt, style=Bold</value>
+  </data>
+  <data name="uC_AddRoom1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, -3</value>
+  </data>
+  <data name="uC_AddRoom1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 1, 2, 1</value>
+  </data>
+  <data name="uC_AddRoom1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1629, 693</value>
+  </data>
+  <data name="uC_AddRoom1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uC_AddRoom1.Name" xml:space="preserve">
+    <value>uC_AddRoom1</value>
+  </data>
+  <data name="&gt;&gt;uC_AddRoom1.Type" xml:space="preserve">
+    <value>QuanLiKhachSan.All_User_Control.UC_AddRoom, QuanLiKhachSan, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uC_AddRoom1.Parent" xml:space="preserve">
+    <value>btnCustomerRes</value>
+  </data>
+  <data name="&gt;&gt;uC_AddRoom1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="uC_AddKhuyenMaiDichVu1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8pt</value>
+  </data>
+  <data name="uC_AddKhuyenMaiDichVu1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, -2</value>
+  </data>
+  <data name="uC_AddKhuyenMaiDichVu1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="uC_AddKhuyenMaiDichVu1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1632, 746</value>
+  </data>
+  <data name="uC_AddKhuyenMaiDichVu1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;uC_AddKhuyenMaiDichVu1.Name" xml:space="preserve">
+    <value>uC_AddKhuyenMaiDichVu1</value>
+  </data>
+  <data name="&gt;&gt;uC_AddKhuyenMaiDichVu1.Type" xml:space="preserve">
+    <value>QuanLiKhachSan.All_User_Control.UC_AddKhuyenMaiDichVu, QuanLiKhachSan, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uC_AddKhuyenMaiDichVu1.Parent" xml:space="preserve">
+    <value>btnCustomerRes</value>
+  </data>
+  <data name="&gt;&gt;uC_AddKhuyenMaiDichVu1.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
   <data name="btnCustomerRes.Location" type="System.Drawing.Point, System.Drawing">
