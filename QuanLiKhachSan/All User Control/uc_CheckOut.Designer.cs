@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnThanhToan = new Guna.UI2.WinForms.Guna2Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtMaNVXuatHoaDon = new Guna.UI2.WinForms.Guna2TextBox();
@@ -55,10 +55,10 @@
             this.btnThanhToan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnThanhToan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnThanhToan.ForeColor = System.Drawing.Color.White;
-            this.btnThanhToan.Location = new System.Drawing.Point(1159, 620);
+            this.btnThanhToan.Location = new System.Drawing.Point(1030, 496);
             this.btnThanhToan.Margin = new System.Windows.Forms.Padding(2);
             this.btnThanhToan.Name = "btnThanhToan";
-            this.btnThanhToan.Size = new System.Drawing.Size(179, 48);
+            this.btnThanhToan.Size = new System.Drawing.Size(159, 38);
             this.btnThanhToan.TabIndex = 21;
             this.btnThanhToan.Text = "Thanh toán";
             this.btnThanhToan.Click += new System.EventHandler(this.btnThanhToan_Click);
@@ -66,10 +66,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(603, 626);
+            this.label4.Location = new System.Drawing.Point(536, 501);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 20);
+            this.label4.Size = new System.Drawing.Size(91, 16);
             this.label4.TabIndex = 20;
             this.label4.Text = "Mã Nhân Viên";
             // 
@@ -84,22 +84,22 @@
             this.txtMaNVXuatHoaDon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaNVXuatHoaDon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMaNVXuatHoaDon.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMaNVXuatHoaDon.Location = new System.Drawing.Point(734, 620);
+            this.txtMaNVXuatHoaDon.Location = new System.Drawing.Point(652, 496);
             this.txtMaNVXuatHoaDon.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaNVXuatHoaDon.Name = "txtMaNVXuatHoaDon";
             this.txtMaNVXuatHoaDon.PasswordChar = '\0';
             this.txtMaNVXuatHoaDon.PlaceholderText = "MaNV";
             this.txtMaNVXuatHoaDon.SelectedText = "";
-            this.txtMaNVXuatHoaDon.Size = new System.Drawing.Size(172, 35);
+            this.txtMaNVXuatHoaDon.Size = new System.Drawing.Size(153, 28);
             this.txtMaNVXuatHoaDon.TabIndex = 19;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(82, 626);
+            this.label3.Location = new System.Drawing.Point(73, 501);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 20);
+            this.label3.Size = new System.Drawing.Size(35, 16);
             this.label3.TabIndex = 18;
             this.label3.Text = "SDT";
             // 
@@ -114,45 +114,45 @@
             this.txtSDTThanhToan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSDTThanhToan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSDTThanhToan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSDTThanhToan.Location = new System.Drawing.Point(154, 620);
+            this.txtSDTThanhToan.Location = new System.Drawing.Point(137, 496);
             this.txtSDTThanhToan.Margin = new System.Windows.Forms.Padding(2);
             this.txtSDTThanhToan.Name = "txtSDTThanhToan";
             this.txtSDTThanhToan.PasswordChar = '\0';
             this.txtSDTThanhToan.PlaceholderText = "SDT";
             this.txtSDTThanhToan.SelectedText = "";
-            this.txtSDTThanhToan.Size = new System.Drawing.Size(172, 35);
+            this.txtSDTThanhToan.Size = new System.Drawing.Size(153, 28);
             this.txtSDTThanhToan.TabIndex = 17;
             // 
             // dataGridViewInvoice
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.dataGridViewInvoice.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewInvoice.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dataGridViewInvoice.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewInvoice.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewInvoice.ColumnHeadersHeight = 4;
             this.dataGridViewInvoice.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewInvoice.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewInvoice.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewInvoice.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dataGridViewInvoice.Location = new System.Drawing.Point(79, 143);
+            this.dataGridViewInvoice.Location = new System.Drawing.Point(70, 114);
             this.dataGridViewInvoice.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewInvoice.Name = "dataGridViewInvoice";
             this.dataGridViewInvoice.RowHeadersVisible = false;
             this.dataGridViewInvoice.RowHeadersWidth = 82;
             this.dataGridViewInvoice.RowTemplate.Height = 33;
-            this.dataGridViewInvoice.Size = new System.Drawing.Size(1259, 452);
+            this.dataGridViewInvoice.Size = new System.Drawing.Size(1119, 362);
             this.dataGridViewInvoice.TabIndex = 16;
             this.dataGridViewInvoice.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dataGridViewInvoice.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -179,10 +179,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(369, 89);
+            this.label2.Location = new System.Drawing.Point(328, 71);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 20);
+            this.label2.Size = new System.Drawing.Size(62, 16);
             this.label2.TabIndex = 15;
             this.label2.Text = "Tìm kiếm";
             // 
@@ -197,23 +197,23 @@
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(448, 71);
+            this.guna2TextBox1.Location = new System.Drawing.Point(398, 57);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "Tìm kiếm thông tin";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(334, 48);
+            this.guna2TextBox1.Size = new System.Drawing.Size(297, 38);
             this.guna2TextBox1.TabIndex = 14;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(71, 52);
+            this.label1.Location = new System.Drawing.Point(63, 42);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 46);
+            this.label1.Size = new System.Drawing.Size(179, 39);
             this.label1.TabIndex = 13;
             this.label1.Text = "Thanh toán";
             // 
@@ -231,16 +231,17 @@
             this.btnLoad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnLoad.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnLoad.ForeColor = System.Drawing.Color.White;
-            this.btnLoad.Location = new System.Drawing.Point(885, 71);
+            this.btnLoad.Location = new System.Drawing.Point(787, 57);
             this.btnLoad.Margin = new System.Windows.Forms.Padding(2);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(179, 48);
+            this.btnLoad.Size = new System.Drawing.Size(159, 38);
             this.btnLoad.TabIndex = 22;
             this.btnLoad.Text = "Load";
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click_1);
             // 
             // uc_CheckOut
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnThanhToan);
             this.Controls.Add(this.label4);
@@ -254,7 +255,7 @@
             this.Controls.Add(this.btnLoad);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "uc_CheckOut";
-            this.Size = new System.Drawing.Size(1629, 693);
+            this.Size = new System.Drawing.Size(1448, 554);
             this.Load += new System.EventHandler(this.uc_CheckOut_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInvoice)).EndInit();
             this.ResumeLayout(false);

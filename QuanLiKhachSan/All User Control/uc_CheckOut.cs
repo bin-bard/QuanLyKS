@@ -32,7 +32,7 @@ namespace QuanLiKhachSan.All_User_Control
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
-            LoadInvoiceDetails();
+            
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -55,6 +55,11 @@ namespace QuanLiKhachSan.All_User_Control
                 MessageBox.Show("An error occurred while processing the payment: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
+        }
+
+        private void btnLoad_Click_1(object sender, EventArgs e)
+        {
+            LoadInvoiceDetails();
         }
     }
 }
