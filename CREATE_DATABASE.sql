@@ -640,3 +640,21 @@ BEGIN
         NHANVIEN nv ON l.MaNV = nv.MaNV;
 END;
 GO
+
+--Khi xóa một nhân viên, dữ liệu liên quan đến lương và tài khoản của nhân viên đó cũng sẽ bị xóa
+CREATE TRIGGER trg_DeleteEmployee
+ON NHANVIEN
+AFTER DELETE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Xóa dữ liệu trong bảng LUONG liên quan đến nhân viên bị xóa
+    DELETE FROM LUONG
+    WHERE MaNV IN (SELECT MaNV FROM deleted);
+
+    -- Xóa dữ liệu trong bảng TAIKHOAN liên quan đến nhân viên bị xóa
+    DELETE FROM TAIKHOAN
+    WHERE MaNV IN (SELECT MaNV FROM deleted);
+END;
+GO

@@ -13,7 +13,7 @@ namespace QuanLiKhachSan
     internal class DBconnection
     {
 
-        SqlConnection conAdmin = new SqlConnection(@"Data Source=DucAn\SQLEXPRESS;Initial Catalog=KhachSanDB;Integrated Security=True;TrustServerCertificate=True;");
+        SqlConnection conAdmin = new SqlConnection(@"Data Source=ACER\SQLEXPRESS;Initial Catalog=KhachSan;Persist Security Info=True;User ID=sa;Password=123456;");
         public SqlConnection getConnectionAdmin
         {
             get

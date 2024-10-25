@@ -38,3 +38,23 @@ E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.csproj.CoreCompileIn
 E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKh.F7CD41EC.Up2Date
 E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.exe
 E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.pdb
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\bin\Debug\QuanLiKhachSan.exe.config
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\bin\Debug\QuanLiKhachSan.exe
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\bin\Debug\QuanLiKhachSan.pdb
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\bin\Debug\Guna.UI2.dll
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.csproj.AssemblyReference.cache
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.UC_ChiNhanh.resources
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.UC_AddKhuyenMaiDichVu.resources
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.UC_AddRoom.resources
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.uc_CheckOut.resources
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.uc_CustomerControl.resources
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.UC_CustomerReg.resources
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.uc_Employee.resources
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.Dashboard.resources
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.Form1.resources
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.Properties.Resources.resources
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.csproj.GenerateResource.cache
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.csproj.CoreCompileInputs.cache
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKh.F7CD41EC.Up2Date
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.exe
+C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.pdb
