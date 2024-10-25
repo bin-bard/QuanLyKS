@@ -341,9 +341,6 @@ BEGIN
 END;
 GO
 
-
-
-
 CREATE PROCEDURE AddServiceToCustomer
     @SDT NVARCHAR(15),
     @TenDichVu NVARCHAR(100),
@@ -390,7 +387,6 @@ BEGIN
 END;
 GO
  
-
 CREATE VIEW ViewInvoiceDetails AS
 SELECT 
     h.MaHoaDon,
@@ -410,10 +406,12 @@ FROM
     LEFT JOIN SUDUNG sd ON sd.MaKH = k.MaKH
     LEFT JOIN DICHVU d ON sd.MaDichVu = d.MaDichVu
     LEFT JOIN KHUYENMAI km ON km.MaNV = h.MaNV
--- Bỏ qua điều kiện về ngày khuyến mãi để xem tất cả hóa đơn
+WHERE 
+    h.TrangThai = 'chua-thanh-toan'
 GROUP BY 
     h.MaHoaDon, k.Ten, p.SoPhong, h.NgayNhanPhong, h.NgayTraPhong, h.TongTien, km.PhanTramGiam, h.TrangThai;
 GO
+
 
 CREATE VIEW KhachDangSuDungPhong AS
 SELECT 
@@ -432,13 +430,95 @@ WHERE
     p.TinhTrang = 'sudung'; 
 GO
 
+CREATE PROCEDURE ThanhToanHoaDon
+    @SDT NVARCHAR(15),  -- Thêm SDT của KHACHHANG làm đầu vào
+    @MaNV INT
+AS
+BEGIN
+    DECLARE @MaHoaDon INT;
+
+    -- Tìm mã hóa đơn từ số điện thoại khách hàng
+    SELECT TOP 1 @MaHoaDon = hd.MaHoaDon
+    FROM HOADON hd
+    JOIN KHACHHANG kh ON hd.MaKH = kh.MaKH
+    WHERE kh.SDT = @SDT AND hd.TrangThai = 'chua-thanh-toan'
+    ORDER BY hd.NgayNhanPhong;  -- Ưu tiên hóa đơn gần nhất nếu có nhiều hóa đơn chưa thanh toán
+
+    -- Nếu tìm thấy hóa đơn, cập nhật thông tin
+    IF @MaHoaDon IS NOT NULL
+    BEGIN
+        UPDATE HOADON
+        SET TrangThai = 'da-thanh-toan',
+            NgayTraPhong = GETDATE(),
+            MaNV = @MaNV
+        WHERE MaHoaDon = @MaHoaDon;
+    END
+    ELSE
+    BEGIN
+        PRINT 'Không tìm thấy hóa đơn chưa thanh toán cho số điện thoại này.';
+    END
+END;
+GO
+
+CREATE TRIGGER trg_UpdateRoomStatusAfterPayment
+ON HOADON
+AFTER UPDATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Kiểm tra nếu có sự thay đổi trong trạng thái hóa đơn
+    IF UPDATE(TrangThai)
+    BEGIN
+        DECLARE @MaKH INT;
+        DECLARE @MaPhong INT;
+
+        -- Lấy mã khách hàng từ hóa đơn đã cập nhật
+        SELECT @MaKH = inserted.MaKH
+        FROM inserted
+        WHERE TrangThai = 'da-thanh-toan';
+
+        -- Nếu khách hàng đã thanh toán thì cập nhật trạng thái phòng
+        IF @MaKH IS NOT NULL
+        BEGIN
+            -- Lấy mã phòng của khách hàng
+            SELECT @MaPhong = MaPhong
+            FROM PHONG
+            WHERE MaKH = @MaKH;
+
+            -- Cập nhật trạng thái phòng thành 'trong'
+            UPDATE PHONG
+            SET TinhTrang = 'trong',
+                MaKH = NULL
+            WHERE MaPhong = @MaPhong;
+        END
+    END
+END;
+GO
 
 
-
-
-
-
-
+CREATE VIEW ViewPaidCustomers AS
+SELECT 
+    h.MaHoaDon,
+    k.Ten AS TenKhachHang,
+    h.NgayNhanPhong,
+    h.NgayTraPhong,
+    SUM(ISNULL(d.Gia, 0) * ISNULL(sd.SoLuong, 0)) AS TongTienDichVu,
+    h.TongTien AS TongTienPhong,
+    ISNULL(km.PhanTramGiam, 0) AS PhanTramGiam,
+    (h.TongTien + SUM(ISNULL(d.Gia, 0) * ISNULL(sd.SoLuong, 0))) * (1 - ISNULL(km.PhanTramGiam, 0) / 100) AS TongTienSauKM,
+    h.TrangThai
+FROM 
+    HOADON h
+    JOIN KHACHHANG k ON h.MaKH = k.MaKH
+    LEFT JOIN SUDUNG sd ON sd.MaKH = k.MaKH
+    LEFT JOIN DICHVU d ON sd.MaDichVu = d.MaDichVu
+    LEFT JOIN KHUYENMAI km ON km.MaNV = h.MaNV
+WHERE 
+    h.TrangThai = 'da-thanh-toan'
+GROUP BY 
+    h.MaHoaDon, k.Ten, h.NgayNhanPhong, h.NgayTraPhong, h.TongTien, km.PhanTramGiam, h.TrangThai;
+GO
 
 -- Transaction
 CREATE PROCEDURE RegisterEmployee
@@ -560,4 +640,3 @@ BEGIN
         NHANVIEN nv ON l.MaNV = nv.MaNV;
 END;
 GO
-
