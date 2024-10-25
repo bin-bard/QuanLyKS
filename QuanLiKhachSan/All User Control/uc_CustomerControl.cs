@@ -33,6 +33,10 @@ namespace QuanLiKhachSan.All_User_Control
             {
                 LoadAllCustomerInHotel();
             }
+            else if (txtSeachAll.SelectedItem.ToString() == "Check-Out-Customer")
+            {
+                LoadAllCustomerCheckOut();
+            }
         }
 
         private void LoadAllCustomerDetails()
@@ -46,6 +50,12 @@ namespace QuanLiKhachSan.All_User_Control
         {
             DataTable dtCustomerInHotel = db.GetCustomersInHotel();
             dataGridViewAllCustomers.DataSource = dtCustomerInHotel;
+        }
+
+        private void LoadAllCustomerCheckOut()
+        {
+            DataTable dtCustomerCheckOut = db.GetCustomersCheckOut();
+            dataGridViewAllCustomers.DataSource = dtCustomerCheckOut;
         }
 
         private void dataGridViewAllCustomers_CellContentClick(object sender, DataGridViewCellEventArgs e)

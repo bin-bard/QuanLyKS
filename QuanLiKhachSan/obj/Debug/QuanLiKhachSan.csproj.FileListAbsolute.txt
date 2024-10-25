@@ -18,3 +18,23 @@ C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QLKS_Winform_Tai\QuanLiKhach
 C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QLKS_Winform_Tai\QuanLiKhachSan\obj\Debug\QuanLiKh.F7CD41EC.Up2Date
 C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QLKS_Winform_Tai\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.exe
 C:\Users\thanh\OneDrive\Desktop\Nam3\DBMS\Đồ án\QLKS_Winform_Tai\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.pdb
+E:\winForm\QuanLyKS\QuanLiKhachSan\bin\Debug\QuanLiKhachSan.exe.config
+E:\winForm\QuanLyKS\QuanLiKhachSan\bin\Debug\QuanLiKhachSan.exe
+E:\winForm\QuanLyKS\QuanLiKhachSan\bin\Debug\QuanLiKhachSan.pdb
+E:\winForm\QuanLyKS\QuanLiKhachSan\bin\Debug\Guna.UI2.dll
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.csproj.AssemblyReference.cache
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.UC_ChiNhanh.resources
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.UC_AddKhuyenMaiDichVu.resources
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.UC_AddRoom.resources
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.uc_CheckOut.resources
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.uc_CustomerControl.resources
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.UC_CustomerReg.resources
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.All_User_Control.uc_Employee.resources
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.Dashboard.resources
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.Form1.resources
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.Properties.Resources.resources
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.csproj.GenerateResource.cache
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.csproj.CoreCompileInputs.cache
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKh.F7CD41EC.Up2Date
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.exe
+E:\winForm\QuanLyKS\QuanLiKhachSan\obj\Debug\QuanLiKhachSan.pdb
