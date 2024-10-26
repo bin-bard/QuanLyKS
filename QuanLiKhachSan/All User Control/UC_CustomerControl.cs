@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace QuanLiKhachSan.All_User_Control
 {
-    public partial class uc_CustomerControl : UserControl
+    public partial class UC_CustomerControl : UserControl
     {
         DBconnection db = new DBconnection();
-        public uc_CustomerControl()
+        public UC_CustomerControl()
         {
             InitializeComponent();
         }

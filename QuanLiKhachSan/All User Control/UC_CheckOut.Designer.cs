@@ -1,6 +1,6 @@
 ﻿namespace QuanLiKhachSan.All_User_Control
 {
-    partial class uc_CheckOut
+    partial class UC_CheckOut
     {
         /// <summary> 
         /// Required designer variable.
@@ -239,7 +239,7 @@
             this.btnLoad.Text = "Load";
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click_1);
             // 
-            // uc_CheckOut
+            // UC_CheckOut
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -254,7 +254,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLoad);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "uc_CheckOut";
+            this.Name = "UC_CheckOut";
             this.Size = new System.Drawing.Size(1629, 692);
             this.Load += new System.EventHandler(this.uc_CheckOut_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInvoice)).EndInit();

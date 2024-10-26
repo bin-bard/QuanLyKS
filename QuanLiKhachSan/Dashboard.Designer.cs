@@ -52,14 +52,14 @@
             this.guna2Elipse8 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse9 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uc_CheckOut1 = new QuanLiKhachSan.All_User_Control.uc_CheckOut();
+            this.uc_CheckOut1 = new QuanLiKhachSan.All_User_Control.UC_CheckOut();
             this.uC_CustomerReg1 = new QuanLiKhachSan.All_User_Control.UC_CustomerReg();
             this.uC_AddRoom1 = new QuanLiKhachSan.All_User_Control.UC_AddRoom();
             this.uC_AddKhuyenMaiDichVu1 = new QuanLiKhachSan.All_User_Control.UC_AddKhuyenMaiDichVu();
             this.uC_ChiNhanh1 = new QuanLiKhachSan.All_User_Control.UC_ChiNhanh();
-            this.uc_Employee1 = new QuanLiKhachSan.All_User_Control.uc_Employee();
-            this.uc_CustomerControl1 = new QuanLiKhachSan.All_User_Control.uc_CustomerControl();
-            this.uc_CheckOut2 = new QuanLiKhachSan.All_User_Control.uc_CheckOut();
+            this.uc_Employee1 = new QuanLiKhachSan.All_User_Control.UC_Employee();
+            this.uc_CustomerControl1 = new QuanLiKhachSan.All_User_Control.UC_CustomerControl();
+            this.uc_CheckOut2 = new QuanLiKhachSan.All_User_Control.UC_CheckOut();
             this.panel1.SuspendLayout();
             this.btnCustomerRes.SuspendLayout();
             this.SuspendLayout();
@@ -355,19 +355,19 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
         private All_User_Control.UC_CustomerReg uC_CustomerReg1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
-        private All_User_Control.uc_CheckOut uc_CheckOut1;
+        private All_User_Control.UC_CheckOut uc_CheckOut1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse6;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse7;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse8;
-        private All_User_Control.uc_CustomerControl uc_CustomerControl1;
+        private All_User_Control.UC_CustomerControl uc_CustomerControl1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse9;
         //private All_User_Control.uc_Emloyee uc_Emloyee;
         private Guna.UI2.WinForms.Guna2Button btnThemKhuyenMai;
         private All_User_Control.UC_AddKhuyenMaiDichVu uC_AddKhuyenMaiDichVu1;
         private Guna.UI2.WinForms.Guna2Button btnThemChiNhanh;
         private All_User_Control.UC_ChiNhanh uC_ChiNhanh1;
-        private All_User_Control.uc_Employee uc_Employee1;
-        private All_User_Control.uc_CheckOut uc_CheckOut2;
-        //private All_User_Control.uc_Employee uc_Employee;
+        private All_User_Control.UC_Employee uc_Employee1;
+        private All_User_Control.UC_CheckOut uc_CheckOut2;
+        //private All_User_Control.UC_Employee UC_Employee;
     }
 }

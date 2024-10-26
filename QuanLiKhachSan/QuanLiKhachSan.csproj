@@ -70,17 +70,17 @@
     <Compile Include="All User Control\UC_AddRoom.Designer.cs">
       <DependentUpon>UC_AddRoom.cs</DependentUpon>
     </Compile>
-    <Compile Include="All User Control\uc_CheckOut.cs">
+    <Compile Include="All User Control\UC_CheckOut.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="All User Control\uc_CheckOut.Designer.cs">
-      <DependentUpon>uc_CheckOut.cs</DependentUpon>
+    <Compile Include="All User Control\UC_CheckOut.Designer.cs">
+      <DependentUpon>UC_CheckOut.cs</DependentUpon>
     </Compile>
-    <Compile Include="All User Control\uc_CustomerControl.cs">
+    <Compile Include="All User Control\UC_CustomerControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="All User Control\uc_CustomerControl.Designer.cs">
-      <DependentUpon>uc_CustomerControl.cs</DependentUpon>
+    <Compile Include="All User Control\UC_CustomerControl.Designer.cs">
+      <DependentUpon>UC_CustomerControl.cs</DependentUpon>
     </Compile>
     <Compile Include="All User Control\UC_CustomerReg.cs">
       <SubType>UserControl</SubType>
@@ -88,11 +88,11 @@
     <Compile Include="All User Control\UC_CustomerReg.Designer.cs">
       <DependentUpon>UC_CustomerReg.cs</DependentUpon>
     </Compile>
-    <Compile Include="All User Control\uc_Employee.cs">
+    <Compile Include="All User Control\UC_Employee.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="All User Control\uc_Employee.Designer.cs">
-      <DependentUpon>uc_Employee.cs</DependentUpon>
+    <Compile Include="All User Control\UC_Employee.Designer.cs">
+      <DependentUpon>UC_Employee.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
@@ -101,11 +101,11 @@
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="DBconnection.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -118,23 +118,23 @@
     <EmbeddedResource Include="All User Control\UC_AddRoom.resx">
       <DependentUpon>UC_AddRoom.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="All User Control\uc_CheckOut.resx">
-      <DependentUpon>uc_CheckOut.cs</DependentUpon>
+    <EmbeddedResource Include="All User Control\UC_CheckOut.resx">
+      <DependentUpon>UC_CheckOut.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="All User Control\uc_CustomerControl.resx">
-      <DependentUpon>uc_CustomerControl.cs</DependentUpon>
+    <EmbeddedResource Include="All User Control\UC_CustomerControl.resx">
+      <DependentUpon>UC_CustomerControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="All User Control\UC_CustomerReg.resx">
       <DependentUpon>UC_CustomerReg.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="All User Control\uc_Employee.resx">
-      <DependentUpon>uc_Employee.cs</DependentUpon>
+    <EmbeddedResource Include="All User Control\UC_Employee.resx">
+      <DependentUpon>UC_Employee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

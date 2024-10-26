@@ -1,6 +1,6 @@
 ﻿namespace QuanLiKhachSan.All_User_Control
 {
-    partial class uc_CustomerControl
+    partial class UC_CustomerControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -141,7 +141,7 @@
             this.guna2Elipse1.BorderRadius = 30;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // uc_CustomerControl
+            // UC_CustomerControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -150,7 +150,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "uc_CustomerControl";
+            this.Name = "UC_CustomerControl";
             this.Size = new System.Drawing.Size(1629, 693);
             this.Load += new System.EventHandler(this.uc_CustomerControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAllCustomers)).EndInit();

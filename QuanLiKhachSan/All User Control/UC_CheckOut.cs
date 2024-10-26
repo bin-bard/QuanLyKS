@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace QuanLiKhachSan.All_User_Control
 {
-    public partial class uc_CheckOut : UserControl
+    public partial class UC_CheckOut : UserControl
     {
         DBconnection db = new DBconnection();
 
-        public uc_CheckOut()
+        public UC_CheckOut()
         {
             InitializeComponent();
         }

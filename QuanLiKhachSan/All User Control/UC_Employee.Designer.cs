@@ -1,6 +1,6 @@
 ﻿namespace QuanLiKhachSan.All_User_Control
 {
-    partial class uc_Employee
+    partial class UC_Employee
     {
         /// <summary> 
         /// Required designer variable.
@@ -432,7 +432,7 @@
             this.regEmpBtn.TabIndex = 50;
             this.regEmpBtn.Text = "Đăng ký";
             this.regEmpBtn.UseVisualStyleBackColor = true;
-            this.regEmpBtn.Click += new System.EventHandler(this.button1_Click);
+            this.regEmpBtn.Click += new System.EventHandler(this.regEmpBtn_Click);
             // 
             // label7
             // 
@@ -680,13 +680,13 @@
             this.guna2HtmlLabel1.Text = null;
             this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
             // 
-            // uc_Employee
+            // UC_Employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2TabControl1);
-            this.Name = "uc_Employee";
+            this.Name = "UC_Employee";
             this.Size = new System.Drawing.Size(1629, 800);
             this.guna2TabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

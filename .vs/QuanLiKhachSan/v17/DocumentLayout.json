@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\quanlikhachsan\\all user control\\uc_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\quanlikhachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|solutionrelative:quanlikhachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\quanlikhachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|solutionrelative:quanlikhachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\quanlikhachsan\\all user control\\uc_customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|solutionrelative:quanlikhachsan\\all user control\\uc_customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|c:\\users\\thanh\\onedrive\\desktop\\nam3\\dbms\\\u0111\u1ED3 \u00E1n\\quanlyks\\quanlikhachsan\\all user control\\uc_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|solutionrelative:quanlikhachsan\\all user control\\uc_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,16 +31,8 @@
       "RelativeMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|solutionrelative:quanlikhachsan\\all user control\\uc-chinhanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\quanlikhachsan\\all user control\\uc_customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|solutionrelative:quanlikhachsan\\all user control\\uc_customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\quanlikhachsan\\all user control\\uc_customerreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|solutionrelative:quanlikhachsan\\all user control\\uc_customerreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\quanlikhachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|solutionrelative:quanlikhachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\quanlikhachsan\\all user control\\uc_addroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -39,12 +43,8 @@
       "RelativeMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|solutionrelative:quanlikhachsan\\all user control\\uc_addkhuyenmaidichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|c:\\users\\thanh\\onedrive\\desktop\\nam3\\dbms\\\u0111\u1ED3 \u00E1n\\quanlyks\\quanlikhachsan\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\quanlikhachsan\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|solutionrelative:quanlikhachsan\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\quanlikhachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|solutionrelative:quanlikhachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C234B68-E102-4B92-9BF6-0A77114CD04F}|QuanLiKhachSan\\QuanLiKhachSan.csproj|C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\quanlikhachsan\\all user control\\uc_customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,65 +86,12 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UC-ChiNhanh.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC-ChiNhanh.cs",
-              "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\UC-ChiNhanh.cs",
-              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC-ChiNhanh.cs [Design]",
-              "RelativeToolTip": "QuanLiKhachSan\\All User Control\\UC-ChiNhanh.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T00:29:27.217Z",
-              "EditorCaption": " [Design]"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\Dashboard.cs",
-              "RelativeDocumentMoniker": "QuanLiKhachSan\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\Dashboard.cs [Design]",
-              "RelativeToolTip": "QuanLiKhachSan\\Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:07:41.18Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "uc_Employee.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_Employee.cs",
-              "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\uc_Employee.cs",
-              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_Employee.cs [Design]",
-              "RelativeToolTip": "QuanLiKhachSan\\All User Control\\uc_Employee.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T21:35:34.691Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "uc_Employee.cs",
-              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_Employee.cs",
-              "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\uc_Employee.cs",
-              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_Employee.cs",
-              "RelativeToolTip": "QuanLiKhachSan\\All User Control\\uc_Employee.cs",
-              "ViewState": "AgIAAAMBAAAAAAAAAAAAAAMBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T21:37:11.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "uc_CustomerControl.cs [Design]",
+              "Title": "UC_CustomerControl.cs [Design]",
               "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_CustomerControl.cs",
               "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\uc_CustomerControl.cs",
               "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_CustomerControl.cs [Design]",
@@ -155,20 +102,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UC_CustomerReg.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC_CustomerReg.cs",
-              "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\UC_CustomerReg.cs",
-              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC_CustomerReg.cs [Design]",
-              "RelativeToolTip": "QuanLiKhachSan\\All User Control\\UC_CustomerReg.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:12:32.454Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "uc_CheckOut.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "UC_CheckOut.cs [Design]",
               "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_CheckOut.cs",
               "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\uc_CheckOut.cs",
               "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_CheckOut.cs [Design]",
@@ -179,31 +114,99 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UC_CheckOut.cs",
+              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_CheckOut.cs",
+              "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\uc_CheckOut.cs",
+              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_CheckOut.cs",
+              "RelativeToolTip": "QuanLiKhachSan\\All User Control\\uc_CheckOut.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:07:15.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UC_Employee.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC_Employee.cs",
+              "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\UC_Employee.cs",
+              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC_Employee.cs [Design]",
+              "RelativeToolTip": "QuanLiKhachSan\\All User Control\\UC_Employee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T21:35:34.691Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "uc_Employee.cs",
+              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_Employee.cs",
+              "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\uc_Employee.cs",
+              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_Employee.cs",
+              "RelativeToolTip": "QuanLiKhachSan\\All User Control\\uc_Employee.cs",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAAAMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T21:37:11.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\Dashboard.cs",
+              "RelativeDocumentMoniker": "QuanLiKhachSan\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\Dashboard.cs [Design]",
+              "RelativeToolTip": "QuanLiKhachSan\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:07:41.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UC-ChiNhanh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC-ChiNhanh.cs",
+              "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\UC-ChiNhanh.cs",
+              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC-ChiNhanh.cs [Design]",
+              "RelativeToolTip": "QuanLiKhachSan\\All User Control\\UC-ChiNhanh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:29:27.217Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "UC_CustomerReg.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC_CustomerReg.cs",
+              "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\UC_CustomerReg.cs",
+              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC_CustomerReg.cs [Design]",
+              "RelativeToolTip": "QuanLiKhachSan\\All User Control\\UC_CustomerReg.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:12:32.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UC_AddRoom.cs [Design]",
               "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC_AddRoom.cs",
               "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\UC_AddRoom.cs",
               "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC_AddRoom.cs [Design]",
               "RelativeToolTip": "QuanLiKhachSan\\All User Control\\UC_AddRoom.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:10:25.654Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-24T22:10:25.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UC_AddKhuyenMaiDichVu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC_AddKhuyenMaiDichVu.cs",
               "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\UC_AddKhuyenMaiDichVu.cs",
               "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\UC_AddKhuyenMaiDichVu.cs [Design]",
               "RelativeToolTip": "QuanLiKhachSan\\All User Control\\UC_AddKhuyenMaiDichVu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T00:06:19.28Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-25T00:06:19.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DBconnection.cs",
               "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\DBconnection.cs",
               "RelativeDocumentMoniker": "QuanLiKhachSan\\DBconnection.cs",
@@ -211,26 +214,12 @@
               "RelativeToolTip": "QuanLiKhachSan\\DBconnection.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:54:41.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "uc_CheckOut.cs",
-              "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_CheckOut.cs",
-              "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\uc_CheckOut.cs",
-              "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_CheckOut.cs",
-              "RelativeToolTip": "QuanLiKhachSan\\All User Control\\uc_CheckOut.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAABBwD0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T00:07:15.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T22:54:41.811Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "uc_CustomerControl.cs",
+              "Title": "UC_CustomerControl.cs",
               "DocumentMoniker": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_CustomerControl.cs",
               "RelativeDocumentMoniker": "QuanLiKhachSan\\All User Control\\uc_CustomerControl.cs",
               "ToolTip": "C:\\Users\\thanh\\OneDrive\\Desktop\\Nam3\\DBMS\\\u0110\u1ED3 \u00E1n\\QuanLyKS\\QuanLiKhachSan\\All User Control\\uc_CustomerControl.cs",
@@ -250,18 +239,7 @@
               "RelativeToolTip": "QuanLiKhachSan\\Dashboard.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAiwDoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T00:14:00.229Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1268,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2024-10-25T00:14:00.229Z"
             }
           ]
         }

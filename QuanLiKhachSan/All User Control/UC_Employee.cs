@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace QuanLiKhachSan.All_User_Control
 {
-    public partial class uc_Employee : UserControl
+    public partial class UC_Employee : UserControl
     {
         DBconnection db = new DBconnection();
 
-        public uc_Employee()
+        public UC_Employee()
         {
             InitializeComponent();
             viewEmpGridView.CellClick += new DataGridViewCellEventHandler(viewEmpGridView_CellContentClick);
@@ -63,7 +63,7 @@ namespace QuanLiKhachSan.All_User_Control
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void regEmpBtn_Click(object sender, EventArgs e)
         {
             string hoTen = txtTenNV.Text.Trim();
             string gioiTinh = gioiTinhCBX.SelectedItem.ToString();
